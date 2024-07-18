@@ -1,0 +1,8 @@
+modules = ["dotnet-7.0"]
+run = "pass"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "pass"]
