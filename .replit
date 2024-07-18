@@ -1,6 +1,8 @@
 modules = ["dotnet-7.0"]
 run = "pass"
 
+hidden = [".gitignore", "*.meta", "*.asset", ".git", ".vscode", "Packages", "ProjectSettings"]
+
 [nix]
 channel = "stable-24_05"
 
